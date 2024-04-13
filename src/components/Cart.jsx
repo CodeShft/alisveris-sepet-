@@ -5,9 +5,9 @@ const Cart = ({ cart, emptyCart }) => {
   return (
     <div className="border ml-auto w-72 p-4 mt-2 rounded-lg shadow-lg">
       <h2 className="text-2xl font-semibold mb-4">Sepet</h2>
-      <ul>
+      <ul className="flex flex-col sm:flex-row">
         {cart.map((item) => (
-          <li className="mt-2 flex justify-between">
+          <li className="mt-2 justify-between">
             <span>{item.name}</span>
             <span>{item.price} TL</span>
           </li>
