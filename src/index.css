@@ -15,14 +15,4 @@
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   background: rgb(219, 219, 243);
 }
-.grid {
-  display: flex; /* Flexbox'ı etkinleştirin */
-  flex-direction: row; /* Öğeleri yatay sıraya dizin */
-  flex-wrap: wrap; /* Gerekirse birden fazla satır oluşturun */
-  justify-content: space-between; /* Boşlukları eşit şekilde dağıtın */
-}
 
-.grid .grid-item {
-  flex: 1 0 auto; /* Her öğeye eşit alan verin */
-  margin-bottom: 10px; /* Alt kenar boşluğu ekleyin */
-}
