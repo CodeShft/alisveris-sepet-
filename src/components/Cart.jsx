@@ -7,7 +7,7 @@ const Cart = ({ cart, emptyCart }) => {
       <h2 className="text-2xl font-semibold mb-4">Sepet</h2>
       <ul>
         {cart.map((item) => (
-          <li className="mt-2 justify-between">
+          <li className="mt-2 flex justify-between">
             <span>{item.name}</span>
             <span>{item.price} TL</span>
           </li>
