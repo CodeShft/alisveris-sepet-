@@ -1,2 +1,2 @@
 React js Alışveriş sepeti uygulamasıdır.
-Projeyi buradan görüntüliyebilirsiniz  🎈 https://app.netlify.com/sites/comfy-faun-b363ba/overview
+Projeyi buradan görüntüliyebilirsiniz  🎈 https://comfy-faun-b363ba.netlify.app/
